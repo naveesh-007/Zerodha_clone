@@ -1,6 +1,7 @@
 import './App.css'
 import Header from  './header.jsx'
 import Card from './Card.jsx'
+import Products from './Products.jsx'
 
 function App() {
   
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-    
+      
    <section style = {{alignItems:"center",display:"flex",flexDirection:"column",gap:"20px"}}>
 
      <img src="https://zerodha.com/static/images/landing.svg" alt="landing" />
@@ -33,6 +34,9 @@ function App() {
               <Card imgSrc="https://i.pinimg.com/736x/ca/8f/80/ca8f80cf07a63bc8ea665e889951f196.jpg" title="STAY FOCUSED" />
               <Card imgSrc="https://i.pinimg.com/736x/29/cd/0d/29cd0ddadce03c90f1810f887e0976f0.jpg" title="REBUILD IT" />
         </div>
+
+
+        <Products />
               
     </section>
     </>
