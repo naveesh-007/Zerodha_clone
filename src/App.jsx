@@ -2,6 +2,9 @@ import './App.css'
 
 function App() {
   
+ let alertmessage = () => {
+  alert("Sign up button clicked!")
+ }
 
   return (
     <>
@@ -31,7 +34,7 @@ function App() {
      <img src="https://zerodha.com/static/images/landing.svg" alt="landing" />
      <h1>Investing, simplified.</h1>
      <p>Join 6 million+ investors using Zerodha to invest in stocks, mutual funds, and more.</p>
-     <button id="sign-up-button">
+     <button id="sign-up-button" onClick={alertmessage}>
         Sign up now
       </button>
 
